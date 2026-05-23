@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2155,SC2181
 
-IMAGE_TAG='ghcr.io/tashigg/tashi-depin-worker:0'
+IMAGE_TAG='ghcr.io/tashigit/tashi-depin-worker:0'
 
 TROUBLESHOOT_LINK='https://docs.tashi.network/nodes/node-installation/important-notes#troubleshooting'
 MANUAL_UPDATE_LINK='https://docs.tashi.network/nodes/node-installation/important-notes#manual-update'
