@@ -560,7 +560,7 @@ update() {
 	# Execute this whole next block as `sudo` if necessary.
 	# Piping means the sub-process reads line by line and can tell us right where it failed.
 	# Note: when referring to local shell variables *in* the script, be sure to escape: \$foo
-	${SUDO_CMD+"$SUDO_CMD "}bash <<-EOF
+	${SUDO_CMD:+"$SUDO_CMD "}bash <<-EOF
 		set -x
 
 		($CONTAINER_RT inspect "$CONTAINER_NAME-old" >/dev/null 2>&1)
